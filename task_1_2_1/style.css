@@ -1,0 +1,244 @@
+body{
+	margin: 0; /*重置body格式*/
+	min-width: 1100px;
+	font-family: Microsoft YaHei;
+	background-color:#CFC7C8;
+}
+a{
+	color: #fff;
+	cursor: pointer;
+}
+a label{
+	cursor: pointer;
+}
+pre {
+	font-family: Microsoft YaHei;
+}
+.wrap {
+	position: relative;
+	height: auto;
+	min-height: 100%;
+	padding-bottom: 30px;
+	background-color: #f9f9f9
+}
+.wrap.global, .wrap.default {
+	padding: 0
+}
+.wrap.global>.body, .wrap.default>.body {
+	padding-bottom: 57px;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.menu {
+	margin: 0;
+	list-style: none;
+}
+.menu-horizontal li {
+	float: left;
+}
+.header {
+	position: relative;
+	z-index: 1003;
+	height: 56px;
+	text-align: center;
+	background-color: #18223d;
+}
+.header a {
+	text-decoration: none;
+	color: rgba(255,255,255,.5)
+}
+.header a:hover, .header .menu .active a {
+	color: #fff;
+}
+.header.global {
+	text-align: left;
+}
+.header.black {
+	background-color: #2b2d33;
+	height: 56px;
+}
+.narrow {
+	width: 1100px;
+	margin: auto;
+	text-align: left
+}
+.header-inner.narrow .menu-wrap {
+	width: auto;
+	padding-left: 70px;
+}
+.global .header-inner.narrow .menu-wrap {
+	padding-left: 0
+}
+.header-inner.narrow .menu {
+	margin-left: 40px
+}
+.header .pull-left {
+	padding: 6px 0 0 33px;
+	line-height: 0
+}
+.header.global .pull-left {
+	padding-left: 25px
+}
+.header-inner.narrow .pull-left {
+	padding: 6px 0 0 10px
+}
+.header-inner .pull-right {
+	height: 1px;
+}
+.header-account {
+	display: inline-block;
+	padding-top: 13.5px;
+	height: 29px;
+}
+.header .menu {
+	line-height: 56px;
+	color: #fff
+}
+.header .menu li {
+	cursor: pointer
+}
+.header .menu li a {
+	position: relative;
+	display: inline-block;
+	height: 56px;
+	padding: 0 17px
+}
+.header li:hover label {
+	color: #fff
+}
+.header .menu .to-home.active span, .header .menu .to-globalTalent.active span {
+	position: absolute;
+	top: 23px;
+	left: -3px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #4090ff
+}
+.logo-icon{
+	display:inline-block;
+	width:104px;
+	height:38px;
+	background: url(http://talent.baidu.com/external/baidu/images/home/home-icon.png);
+}
+.unlogin {
+	color: #fff;
+}
+.unlogin a {
+	padding: 3px 10px 5px;
+	border: 1px solid #fff;
+	font-size: 13px;
+	line-height: 29px;
+	border-radius: 15px;
+	transition: .2s;
+}
+.unlogin.lv-2 a {
+	padding: 3px 3px 5px;
+	border: 0 solid #fff;
+	border-radius: 0;
+}
+.unlogin a:hover {
+	background-color: rgba(255,255,255,.2);
+}
+.unlogin.lv-2 a:hover {
+	background: none;
+}
+.unlogin .register {
+	margin-left: 9px;
+}
+.unlogin.lv-2 .register {
+	margin-left: 0;
+}
+.u-d {
+	display: none;
+	font-size: 13px;
+	line-height: 29px;
+	color: rgba(255,255,255,.5);
+}
+.unlogin.lv-2 .u-d {
+	display: inline;
+}
+.body{
+	min-height: 100%;
+	background-color: #fff;
+	border: 2px solid #EEEEEE;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+div#Girl{
+	display: inline-block;margin-left: 20px;margin-top: 20px;
+}
+.body table#ta{
+	width: 100%;
+	border-right: 1px solid #4D4FB3;
+	border-bottom: 1px solid #4D4FB3;
+}
+.body table#ta td {
+	border-left: 1px solid #4D4FB3;
+	border-top: 1px solid #4D4FB3;
+}
+.body table#ta th {
+	background-color: #070707;
+	color: #fff;
+	border-left: 1px solid #4D4FB3;
+	border-top: 1px solid #4D4FB3;
+}
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.footer {
+	position: relative;
+	z-index: 1002;
+	height: 30px;
+	margin-top: 15px;
+	text-align: center
+}
+.footer.global, .footer.default {
+	height: 57px;
+	margin-top: 15px;
+	line-height: 0
+}
+.footer.default {
+	background-color: #e4e4e4
+}
+.footer.global li, .footer.global li a, .footer.default li, .footer.default li a {
+	color: #999
+}
+.footer.global li a:hover, .footer.global li:hover a, .footer.default li a:hover, .footer.default li:hover a {
+	color: #4090ff
+}
+.footer ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 30px;
+	color: #fff \9
+}
+.footer.global ul, .footer.default ul {
+	line-height: 50px;
+	margin-top: 4px
+}
+.footer ul li {
+	float: left
+}
+.footer .left-border {
+	border-width: 2px
+}
+.footer ul li a {
+	padding: 0 5px;
+	text-decoration: none
+}
+.footer ul li, .footer ul li a {
+	font-family: "宋体";
+	font-size: 12px;
+	color: rgba(255,255,255,.9)
+}
