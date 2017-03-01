@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>零基础HTML及CSS编码（一）Demo</title>
+</head>
+
+<body>
+<div class="wrap default">
+  <div class="header black">
+    <div class="header-inner narrow">
+      <div class="pull-left"> <a class="logo-icon"> </a> </div>
+      <div class="menu-wrap">
+        <ul class="menu menu-horizontal">
+          <li class="to-home"><a><span></span>首页</a></li>
+          <li><a><span></span>地图</a></li>
+          <li><a><span></span>图片</a></li>
+          <li><a><span></span>美食</a></li>
+          <li><a><span></span>团购</a></li>
+          <li><a><span></span>了解百度</a></li>
+        </ul>
+        <div id="header-blue-block" style="display: none;"></div>
+      </div>
+      <div class="pull-right">
+        <div class="header-account">
+          <div class="unlogin lv-2"> <a class="login" >登录</a> <span class="u-d">|</span> <a class="register">注册</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="body">
+  <div style="display: inline-block">
+    <h3>五言古诗</h3>
+    <h4>春思</h4>
+    <p>李白 公元737年</p>
+    <p>燕草如碧丝，秦桑低绿枝。</p>
+    <p>当君怀归日，是妾断肠时。</p>
+    <p>春风不相识，何事入罗帏？</p>
+  </div>
+  <div style="display: inline-block;margin-left: 20px"> <img src="http://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/mms-res/fed/ife/ife_tutor/%E8%AF%BE%E7%A8%8B%E9%85%8D%E5%9B%BE.3fb31f3e5af7e8d7.jpg" title="课程配图"/> </div>
+</div>
+<div class="body">
+  <div style="display: inline-block">
+    <h4>佳人</h4>
+    <pre>
+绝代有佳人，幽居在空谷。 
+
+自云良家女，零落依草木。 
+
+关中昔丧乱，兄弟遭杀戮。 
+
+官高何足论，不得收骨肉。 
+
+世情恶衰歇，万事随转烛。 
+
+夫婿轻薄儿，新人美如玉。 
+
+合昏尚知时，鸳鸯不独宿。 
+
+但见新人笑，那闻旧人哭。 
+		</pre>
+  </div>
+  <div id="Girl"> <img src="http://f.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=036f790eb5003af34dbadb660d11a161/d50735fae6cd7b89abeda3840c2442a7d9330e37.jpg" title="听说有美女？"/> </div>
+</div>
+<div class="body">
+  <h4>以下数据纯属瞎编，如有雷同纯属巧合。</h4>
+  <table id="ta">
+    <tbody>
+      <tr>
+        <th>品牌</th>
+        <th>型号</th>
+        <th>销量</th>
+        <th>季度</th>
+        <th>操作</th>
+      </tr>
+      <tr>
+        <td>华为</td>
+        <td>Honor6X</td>
+        <td>200W</td>
+        <td>Q3</td>
+        <td style="text-decoration: underline;color: blueviolet">编辑</td>
+      </tr>
+      <tr>
+        <td>小米</td>
+        <td>小米mix</td>
+        <td>300W</td>
+        <td>Q3</td>
+        <td style="text-decoration: underline;color: blueviolet">编辑</td>
+      </tr>
+      <tr>
+        <td>联想</td>
+        <td>ZUK Z2</td>
+        <td>10W</td>
+        <td>Q3</td>
+        <td style="text-decoration: underline;color: blueviolet">编辑</td>
+      </tr>
+      <tr style="background-color: grey">
+        <td colspan="2">总计:</td>
+        <td colspan="3">510W</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="body">
+  <table width="768" align="center">
+    <tbody>
+      <tr>
+        <td><form name="form" method="post">
+            <table align="center">
+              <tbody>
+                <tr valign="top">
+                  <td>账号：</td>
+                  <td><input type="text" placeholder="请输入账号"/></td>
+                </tr>
+                <tr valign="top">
+                  <td>密码：</td>
+                  <td><input type="password" value="xxxxxxx"/></td>
+                </tr>
+                <tr valign="top">
+                  <td>验证码：</td>
+                  <td><input type="text" placeholder="请输入验证码"></td>
+                  <td><img src="imagenumber.jpg"></td>
+                </tr>
+                <tr align="top">
+                  <td>性别：</td>
+                  <td><input name="sex" type="radio"/>
+                    男</td>
+                  <td><input name="sex" type="radio"/>
+                    女</td>
+                </tr>
+                <tr>
+					<td>城市：</td>
+                    <td>
+                     <select>
+                      <option value="北京">北京</option>
+                      <option value="上海">上海</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                	<td>爱好：</td>
+                	<td><input name="intr" type="checkbox"/>运动</td>
+                	<td><input name="intr" type="checkbox"/>读书</td>
+                </tr>
+                <tr>
+                	<td>个人描述：</td>
+                	<td><textarea>这是一个多行文本</textarea></td>
+                	<td><input type="submit" value="确认修改"/></td>
+                </tr>
+              </tbody>
+            </table>
+          </form></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="footer default">
+  <ul>
+    <li> <a >版权所有&copy;</a> | </li>
+	 <li> <a >Skywol</a>| </li>
+    <li> <a >备案：</a> | </li>
+    <li> <a >晋ICP53467</a> | </li>
+    <li> <a >关于百度</a> 
+    </li>
+  </ul>
+</div>
+</body>
+</html>
