@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	background-color: #eee;
+	padding: 20px;
+	width: auto;
+	height: 500px
+}
+.pull-left{
+	width: 200px;
+}
+.pull-right{
+	width: 120px;
+}
+.text{
+	width: auto;
+}
+.container,.pull-left,.pull-right,.text{
+	border: 1px solid #999;
+}
+.pull-left,.text,.pull-right{
+	float: left;
+	margin: 10px;
+}
+img {
+	margin: 20px;
+	height: 80px;
+	width: 80px;
+}
+h3 {
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	bottom: 80px;
+}
