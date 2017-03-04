@@ -14,6 +14,8 @@
 }
 .text{
 	width: auto;
+	line-height: 1.5em;
+	text-indent: 2em;
 }
 .container,.pull-left,.pull-right,.text{
 	border: 1px solid #999;
