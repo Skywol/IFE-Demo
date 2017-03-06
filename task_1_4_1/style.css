@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	position: absolute; /* 垂直水平居中*/
+	top:0;right: 0;bottom: 0;left: 0;
+	margin:auto;/**/
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	overflow: hidden;
+}
+/*画半径位50px的圆*/
+#circle-top,#circle-bottom{
+	width: 100px;
+	height: 100px;
+	background: #fc0;
+	border-radius: 50%;
+}
+/*精准定位*/
+#circle-top{
+	position: relative;
+	top:-50px;
+	left:-50px;
+}
+#circle-bottom{
+	position: relative;
+	right: -350px;
+	bottom: -50px;
+}
