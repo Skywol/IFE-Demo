@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;}   
+ol,ul{margin:0; padding:0;}
+.clearfix{
+	clear:both;
+}
+#container{
+	font-family: Microsoft YaHei;
+	background: #DEDEDE;
+	height: auto;
+	min-height: 100%;
+}
+#header{
+	position: relative;
+	background: #333333;
+	height: 56px;
+	width: 100%;
+}
+#menu{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+#logo{
+	position: relative;
+	top:8px;
+}
+.logo{
+	float: left;
+	display: inline-block;
+	height: 38px;
+	width: 104px;
+	background: url(http://talent.baidu.com/external/baidu/images/home/home-icon.png);
+}
+#nav{
+	position: relative;
+	left: 50px;
+	line-height: 56px;
+}
+#nav li{
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+}
+#nav a{
+	color: rgba(255,255,255,0.50);
+	text-decoration: none;
+	text-align: left;
+}
+#nav a:hover{
+	color: #fff;
+}
+#main{
+	margin-right: 415px;
+}
+.four{
+	margin: 10px;
+	background: #fff;
+	padding: 20px;
+	line-height: 2.5em;
+	font-size: 16px;
+	text-align: center;
+	overflow: auto;
+}
+.four div{
+	display: inline-block;
+}
+.four div>img{
+	margin-left: 20px;
+}
+.four span{
+	color: #505050;
+	font-size: 14px;
+}
+.four li{
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+.four li img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+#ta{
+	text-align: center;
+	border-top: 1px solid #CECECE;
+	border-right: 1px solid #CECECE;
+	width: 100%;
+	border-collapse: collapse;
+}
+#ta th{
+	background: #070707;
+	color: #fff;
+	border-bottom: 1px solid #CECECE;
+	border-left: 1px solid #CECECE;
+}
+#ta td{
+	border-bottom: 1px solid #CECECE;
+	border-left: 1px solid #CECECE;
+}
+#rside{
+	background: #fff;
+	float: right;
+	width: 365px;
+	position: absolute;
+	top: 56px;
+	right: 0px;
+}
+#login{
+	color: #666;
+	display: block;
+	text-align:justify;
+}
+.login{
+	width: 345px;
+	height: 400px;
+	margin: 20px;
+	border-collapse: collapse;
+}
+.tip{
+	font: small-caps 12px/1em Microsoft YaHei;
+}
+.la{
+	text-align: right;
+	padding-right: 20px;
+}
+#btn{
+	width: 100%;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background: blue;
+	height: 36px;
+	color: #fff;
+	font:18px/15px Microsoft YaHei;
+}
+#footer{
+	height: 50px;
+	background: #333;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+#footer span{
+	margin-left: 10px;
+}
+#footer ul{
+	display: inline-block;
+	line-height: 50px;
+}
+#footer ul li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
