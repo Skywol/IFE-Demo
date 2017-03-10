@@ -209,3 +209,20 @@ hr{
 	display: inline-block;
 	height: 86px;
 }
+#footer{
+	position: relative;
+	top:44px;
+	clear: both;
+	width: 892px;
+}
+#footer hr{
+	
+	height: 1px;
+	background: #938e8c;
+}
+#footer span{
+	position: absolute;
+	color: #d45d5c;
+	right: 0px;
+	font: 12px/12px "黑体";
+}
