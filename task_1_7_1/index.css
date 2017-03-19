@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4{
+	margin: 0
+}
+#container {
+	min-width: 1280px;
+}
+#header {
+	height: 58px;
+}
+#header div {
+	display: inline-block;
+}
+#header .logo {
+	margin-left: 50px;
+}
+.logo-book {
+	margin: 13px 10px;
+}
+.newworld {
+	float: right;
+	font: 21px/normal Simhei;
+	color: #393a3a;
+}
+.login {
+	float: right;
+	margin-right: 70px;
+	margin-left: 20px;
+}
+.loginicon {
+	position: relative;
+	top: 3px;
+}
+.logintext {
+	display: inline-block;
+	margin-left: 10px;
+	font: 14px/58px Microsoft YaHei;
+	color: #e74f4d;
+}
+#nav {
+	float: right;
+	margin-right: 33px;
+}
+#nav a {
+	display: inline-block;
+	height: 38px;
+	text-decoration: none;
+	color: #393a3a;
+}
+#nav a:hover {
+	color: #e74f4d;
+	border-bottom: 4px solid #e74f4d;
+}
+#nav li {
+	float: left;
+	list-style: none;
+	margin-left: 48px;
+	font: 14px/30px Microsoft YaHei;
+}
+#main div {
+	box-sizing: border-box;
+}
+.content1 {
+	background-color: blue;
+	height: 690px;
+	position: relative;
+	background-position: center;
+	background: url(images/content1-background.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding-left: 126px;
+	padding-top: 290px;
+}
+.content1 h2 {
+	font: 60px Microsoft YaHei;
+}
+.content1 p {
+	font: 21px Microsoft YaHei;
+	display: inline-block;
+	width: 300px;
+}
+.content1 span {
+	display: block;
+	height: 64px;
+	width: 330px;
+	background-color: #E74F4D;
+	text-align: center;
+	font: 30px/64px Microsoft YaHei;
+}
+.content2 {
+	padding: 0 auto;
+}
+.cube {
+	display: inline-block;
+	height: 250px;
+	width: 24.7%;
+}
+.cube .logo {
+	margin: 0 auto;
+	width: 42px;
+	height: 130px;
+	background: url(./images/content2-logo.png) no-repeat;
+}
+#logo1 {
+	background-position: 0px 46px;
+}
+#logo2 {
+	background-position: -53px 46px;
+}
+#logo3 {
+	background-position: -106px 46px;
+}
+#logo4 {
+	background-position: -159px 46px;
+}
+.text {
+	height: 54px;
+	width: 100%;
+}
+.left-border {
+	border-left: 2px solid #BBBBBB;
+}
+.text p {
+	width: 155px;
+	margin: 0 auto;
+	font: 14px/18px SimHei;
+	text-align: center;
+	color: #767777;
+}
+.content3 {
+	padding-top: 50px;
+	text-align: center;
+	background-color: #EDEDED;
+	height: 360px;
+}
+.content3 p {
+	font: 54px/60px SimHei;
+	color: #323333;
+	opacity: 0.3;
+}
+.content4 {
+	text-align: center;
+	height: 340px;
+	background: url(images/content4-background.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	color: #ffffff;
+}
+.content4 .mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #E74F4D;
+	opacity: 0.2;
+}
+.content4 .title {
+	position: relative;
+	top: 50px;
+}
+.content4 h2 {
+	font: 21px/42px Microsoft YaHei;
+}
+.content4 p {
+	font: 12px/32px Microsoft YaHei;
+}
+.content4 .line {
+	height: 2px;
+	width: 30px;
+	background-color: white;
+	margin: 0 auto;
+}
+.content4 .selector-container .selector-wraper {
+	display: inline-block;
+	padding-top: 54px;
+	text-align: left;
+}
+.content4 .selector-container .selector-wraper .selector {
+	border: 2px solid white;
+}
+.content4 .selector-container .selector-wraper .selector:hover {
+	border: 2px solid #e74f47;
+}
+.content4 .selector-container .selector-wraper div {
+	display: inline-block;
+	position: relative;
+	height: 36px;
+	width: 237px;
+	background-color: white;
+	margin: 0px 10px;
+}
+.content4 .selector-container .selector-wraper div a {
+	font: 12px Microsoft YaHei;
+	color: #b5b5b5;
+	line-height: 36px;
+	padding-left: 10px;
+}
+.content4 .selector-container .selector-wraper div .arrow {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 3px;
+	top: 8px;
+	background: url(./images/arrow-down.png) no-repeat;
+	background-position: center;
+	background-color: #e74f47;
+}
+.content4 .selector-container .selector-wraper .button {
+	background-color: #e74f47;
+	text-align: center;
+	border: 2px solid #e74f47;
+}
+.content4 .selector-container .selector-wraper .button a {
+	color: white;
+	font-size: 14px;
+}
+.content5 {
+	height: 606px;
+}
+.subcontainer {
+	display: inline-block;
+	width: 24.7%;
+	margin-top: 50px;
+	height: 495px;
+}
+.subcontainer .text2 {
+	margin-top: 120px;
+	float: left;
+	width: 100%;
+	display: inline-block;
+}
+.subcontainer .text2 .title {
+	letter-spacing: 1.29em;
+	width: 220px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.subcontainer .post {
+	height: 325px;
+	width: 220px;
+	background: url(./images/content5-background.jpg);
+	margin: 0px auto;
+	box-sizing: border-box;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	/* 设置阴影 */
+	box-shadow: 1px 1px 1px #b5b5b5;
+}
+.subcontainer .post1 {
+	background-position: 5px 0px;
+}
+.subcontainer .post2 {
+	background-position: -250px -50px;
+	margin-top: 180px;
+}
+.subcontainer .post3 {
+	background-position: -507px 0px;
+}
+.subcontainer .post4 {
+	background-position: -760px 0px;
+}
+.subcontainer .text {
+	text-align: center;
+	font: 14px Microsoft YaHei;
+}
+.subcontainer .text .title {
+	padding-top: 5px;
+}
+.subcontainer .text .subtitle {
+	font-size: 12px;
+	padding-top: 5px;
+	color: #b5b5b5;
+}
+.content6 {
+	height: 566px;
+	width: 100%;
+}
+.content6 .lside {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 66.6%;
+	background: url(images/content6-background.jpg) no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.content6 .lside .title {
+	text-align: center;
+	color: #fff;
+	padding-top: 130px;
+}
+.content6 .lside .title h1 {
+	font: 50px/75px Microsoft YaHei;
+}
+.content6 .lside .title h2 {
+	font: 158px/158px Microsoft YaHei;
+}
+.content6 .lside .title h3 {
+	display: inline-block;
+	font: 22px/43px Microsoft YaHei;
+	width: 150px;
+	text-align: left;
+}
+.content6 .rside {
+	float: right;
+	display: inline-block;
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+	padding: 166px 70px;
+}
+.content6 .rside h1 {
+	font: 20px/30px SimHei;
+}
+.content6 .rside h1 span {
+	color: red;
+}
+.content6 .rside p {
+	display: inline-block;
+	font: 12px/30px SimHei;
+	color: #aaaaaa;
+	width: 290px;
+}
+.content6 .rside .more {
+	margin: 30px auto;
+	width: 105px;
+	height: 33px;
+	border: 1px solid red;
+	font: 12px/33px Microsoft YaHei;
+	color: red;
+}
+.content6 .rside .tab {
+	text-align: center;
+}
+.content6 .rside .tab .button {
+	margin-right: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.content6 .rside .tab .sel {
+	background: gray;
+	margin-left: 5px;
+}
+.content7 .sub-container {
+	text-align: center;
+	width: 33.2%;
+	height: 520px;
+	display: inline-block;
+}
+.content7 .sub-container .blank {
+	height: 174px;
+}
+.content7 .sub-container .title {
+	width: 170px;
+	margin: 0 auto;
+	font: 21px/30px MicroSoft YaHei;
+}
+.content7 .sub-container .line {
+	margin: 20px auto;
+	width: 30px;
+	height: 2px;
+	background-color: #AAAAAA;
+}
+.content7 .sub-container .more {
+	margin: 0 auto;
+	width: 168px;
+	height: 44px;
+	font: 21px/44px SimHei;
+}
+.content8 {
+	height: 750px;
+	text-align: center;
+}
+.content8 .top {
+	box-sizing: border-box;
+	height: 300px;
+}
+.content8 .top h2 {
+	padding-top: 118px;
+	font: 21px/30px SimHei;
+	color: #323333;
+}
+.content8 .top .line {
+	margin: 10px auto;
+	background-color: red;
+	width: 30px;
+	height: 2px;
+}
+.content8 .top p {
+	display: inline-block;
+	font: 12px/18px Microsoft YaHei;
+	color: #aaaaaa;
+	width: 420px;
+}
+.content8 .content {
+	width: 1005px;
+	margin: 50px auto;
+}
+.content8 .content .left {
+	float: left;
+	height: 290px;
+	width: 295px;
+	font: 12px Microsoft Yahei;
+}
+.content8 .content .left .contact {
+	text-align: left;
+	margin-bottom: 15px;
+	color: #b5b5b5;
+}
+.content8 .content .left .contact .name {
+	font: 14px Microsoft YaHei;
+	color: #231815;
+	margin-bottom: 20px;
+}
+.content8 .content .left .contact .txt {
+	color: #b5b5b5;
+}
+.content8 .content .left .contact .more {
+	text-align: right;
+}
+.content8 .content .left .contact .more .arrow{
+	background: url(images/arrow-down.png) no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.content8 .content .right {
+	float: right;
+	width: 640px;
+}
+.content8 .content .right input {
+	width: 280px;
+	height: 40px;
+	background-color: #ededed;
+	border: none;
+	margin: 5px;
+	padding-left: 10px;
+}
+.content8 .content .right textarea {
+	width: 585px;
+	height: 120px;
+	margin: 10px 0px 10px 5px;
+	padding: 5px;
+	background-color: #ededed;
+	border: none;
+	resize: none;
+}
+.content8 .content .right button {
+	width: 594px;
+	height: 40px;
+	margin-left: 5px;
+	background-color: #ededed;
+	border: none;
+}
+#item1 {
+	background-color: #E74F4D;
+	color: #fff;
+}
+#item1 .more {
+	border: 1px solid #fff;
+}
+#item1 .line {
+	background-color: #fff;
+}
+#item2 {
+	background-color: #fff;
+	color: #E74F4D;
+}
+#item2 .more {
+	border: 1px solid #E74F4D;
+}
+#item3 {
+	float: right;
+	background: url(images/content7-background.jpg) no-repeat;
+	background-size: cover;
+}
+.contactus {
+	box-sizing: border-box;
+	height: 360px;
+	background-color: #32363E;
+	text-align: center;
+	color: #fff;
+	padding-top: 90px;
+}
+.contact-title{
+	margin: 0 auto;
+	width: 468px;
+	text-align: center;
+}
+.contact-title h3 {
+	font: 21px/43px SimHei;
+}
+.contact-title p {
+	font: 12px/18px SimHei;
+}
+.contact-email {
+	display: inline-block;
+	font-size: 0px;
+	width: 520px;
+	margin: 10px auto;
+}
+.contact-email .input {
+	width: 432px;
+	height: 41px;
+}
+.contact-email .button {
+	height: 47px;
+	width: 80px;
+	background-color: rgba(110,114,120,1.0);
+	color: #fff;
+	font: 16px/16px Microsoft YaHei;
+	border: 0;
+}
+.share {
+	background: url(images/share.jpg) no-repeat;
+	width: 182px;
+	height: 25px;
+	margin: 20px auto;
+}
+.copyright {
+	height: 57px;
+	background-color: #2F2F38;
+	color: #fff;
+	font: 12px/57px SimHei;
+}
+.copyright span {
+	display: inline-block;
+}
+.copyright .left {
+	margin-left: 98px;
+}
+.copyright .right {
+	float: right;
+	margin-right: 40px;
+}
