@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ife_javascript_task_1_4_1</title>
+	<style>
+		#container{
+			width: 500px;
+			margin: 0 auto;
+			text-align: left;
+		}
+		#btn3{
+			margin-left: 20px;
+		}
+		#box{
+			margin-top: 30px;
+			width:500px;
+			height: 100px
+		}
+		#box div{
+			margin-right: 20px;
+			display: inline-block;
+			width: 20px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<input type="text" id="text">
+		<button id="btn1">左侧入</button>
+		<button id="btn2">右侧入</button>
+		<button id="btn3">左侧出</button>
+		<button id="btn4">右侧出</button>
+		<button id="btn5">排序</button>
+		<div id="box"></div>
+	</div>
+
+	<script>
+	//读取各个元素；
+		var num=document.getElementById('text');
+		var btn1=document.getElementById('btn1');
+		var btn2=document.getElementById('btn2');
+		var btn3=document.getElementById('btn3');
+		var btn4=document.getElementById('btn4');
+		//创建空数组；
+		var data=[];
+		//网页加载聚焦文本框；
+		text.focus();
+		//将文本数值从左侧插入；
+		function left_in(){
+			var val =Number(num.value);
+			if(val<10||val>100){
+				alert('请输入10-100数字');
+				num.value=""
+				num.focus();
+			}else{
+				data.unshift(val);
+				sendValue();
+			}
+			
+		}
+		//将文本数值从右侧插入；
+		function right_in(){
+			var val =Number(num.value);
+			if(val<10||val>100){
+				alert('请输入10-100数字');
+				num.value="";
+				num.focus();
+			}else{
+				data.push(val);
+				sendValue();
+			}
+		}
+		//将li数值元素发布到网页；
+		function sendValue(){
+			var div=document.getElementById('box');
+			var items=""
+			data.forEach(function(element){	
+				items +="<div style=\'height:" + parseInt(element) + "px\'></div>";
+				console.log(items);
+			});
+			div.innerHTML=items;
+			num.value="";
+			text.focus();
+		}
+		//从左侧删除li元素；
+		function left_out(){
+			data.shift();
+			sendValue();
+		}
+		//从右侧删除li元素；
+		function right_out(){
+			data.pop();
+			sendValue();
+		}
+		//对数组进行排列；
+		function sort(){
+			data.sort(function(a,b){
+				return a-b;
+			});
+		}
+		//删除任意li元素；
+		function removeElement(){
+			if(event.target.nodeName.toLowerCase()=="li"){
+        		box.removeChild(event.target);
+        	}
+		}
+		//绑定功能到点击事件；
+		btn1.addEventListener("click",left_in);
+		btn2.addEventListener("click",right_in);
+		btn3.addEventListener("click",left_out);
+		btn4.addEventListener("click",right_out);
+		btn5.addEventListener("click",function(){
+			sort();
+			sendValue();
+		})
+		box.addEventListener("click",removeElement);
+	</script>
+</body>
+</html>
